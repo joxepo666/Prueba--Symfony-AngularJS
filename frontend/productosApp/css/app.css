@@ -1,0 +1,46 @@
+.top-buffer{
+    margin-top:10px;
+}
+
+.productotable tr td{    
+    vertical-align: middle !important;
+}
+
+.productotable tr td:nth-child(2){
+    /*width: 150px;*/
+}
+
+.productotable tr:nth-child(1) td{
+    border-top: none;
+}
+a.nodecoration{
+    text-decoration:none;
+}
+.tablaProductos {
+	color:#333333;
+	border-width: 1px;
+/*	border-color: #666666;
+	border-collapse: collapse;*/
+}
+.tablaProductos th {
+	border-top: none !important;
+	padding: 8px;
+	/*border-style: solid;*/
+        text-align: center;
+	/*border-color: #666666;*/
+	/*background-color: #dedede;*/
+}
+.tablaProductos td {
+	/*border-width: 1px;*/
+	padding: 8px;
+	/*border-style: solid;*/
+	/*border-color: #666666;*/
+	/*background-color: #ffffff;*/
+}
+
+td.centrado {
+	text-align: center;
+}
+td.dcha {
+	text-align: right;
+}

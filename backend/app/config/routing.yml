@@ -1,0 +1,8 @@
+test_test:
+    resource: "@TestTestBundle/Controller/DefaultController.php"
+    type:     rest
+    prefix:   /api
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

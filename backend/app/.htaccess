@@ -1,0 +1,12 @@
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+</IfModule>
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin: "*"
+    Header always set Access-Control-Allow-Methods "POST, GET, PUT, DELETE, OPTIONS"
+    Header always set Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+</IfModule>
