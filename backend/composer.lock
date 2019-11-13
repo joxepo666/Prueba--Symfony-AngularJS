@@ -2331,7 +2331,7 @@
         },
         {
             "name": "symfony/security-acl",
-            "version": "v2.8.0",
+            "version": "v2.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-acl.git",
@@ -2451,7 +2451,7 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.27",
+            "version": "v2.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
@@ -2802,7 +2802,7 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.27",
+            "version": "v2.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
